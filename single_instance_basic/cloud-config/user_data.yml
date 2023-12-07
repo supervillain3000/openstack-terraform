@@ -1,0 +1,4 @@
+#cloud-config
+ssh_pwauth: true
+password: "super-strong-password-here"
+chpasswd: {expire: False}
